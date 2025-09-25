@@ -1,0 +1,169 @@
+
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+    color: white;
+    padding: 2rem 0;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+header h1 {
+    font-size: 2.8rem;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+
+/* Navbar */
+nav {
+    background: #222;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    flex-wrap: wrap;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+nav a:hover {
+    color: #ff9800;
+    transform: scale(1.05);
+}
+
+/* Main Section */
+main {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section {
+    margin-bottom: 3rem;
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    width: 90%;
+    max-width: 1200px;
+    text-align: center;
+}
+
+/* Headings */
+section h2 {
+    margin-bottom: 1.5rem;
+    color: #2575fc;
+    font-size: 2rem;
+    font-weight: 600;
+    border-bottom: 3px solid #6a11cb;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+section h3 {
+    margin-top: 1rem;
+    font-size: 1.6rem;
+    color: #444;
+    font-weight: 600;
+}
+
+section h4 {
+    margin-top: 1rem;
+    font-size: 1.1rem;
+    color: #555;
+    line-height: 1.5;
+    font-weight: 500;
+}
+
+section h5 {
+    margin-top: 1rem;
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.5;
+    font-weight: 400;
+    text-align: justify;
+}
+
+/* Grid layout for videos and images */
+.video-grid, .img-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-items: center;
+}
+
+/* Videos & Images */
+iframe {
+    width: 100%;
+    max-width: 300px;   /* thoda chhota kiya */
+    height: 180px;      /* proper 16:9 ratio */
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    transition: transform 0.3s ease;
+}
+
+section img {
+    width: 100%;
+    max-width: 220px;   /* images chhoti aur clean */
+    border-radius: 12px;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    transition: transform 0.3s ease;
+}
+
+iframe:hover, section img:hover {
+    transform: scale(1.05);
+}
+
+/* Founder Section Links */
+section a {
+    color: #2575fc;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 0 5px;
+    transition: color 0.3s ease;
+}
+
+section a:hover {
+    color: #ff9800;
+}
+
+/* Footer */
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 1.5rem 0;
+    margin-top: 2rem;
+}
+
+footer a {
+    color: #ccc;
+    margin: 0 15px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: #ff9800;
+}

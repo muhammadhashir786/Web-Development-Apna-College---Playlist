@@ -1,0 +1,35 @@
+Videos 1-5 = Section 01
+
+
+Video No 03:
+
+Above topics remaining
+
+Table Tag
+What does table consists of?
+1. Rows:
+2. Columns:
+More About Tables
+7 Tags Used In Tables:
+1. tr Tag:
+2. th Tag:
+3. td Tag:
+2 Attributes of Table Tag:
+1. Rowspan Attribute:
+2. Colspan Attribute:
+Table Structure:
+1. Thead Tag:
+2. Tbody Tag:
+3. Tfoot Tag:
+A Complete Table Structure With Table Head & Body:
+
+Video No: 04 - HTML Form
+
+What is HTML Form:
+Form Tag:
+2 Attributes of Form Tag:
+1. Method Attribute:
+2. Action Attribute:
+Elements of Form:
+
+

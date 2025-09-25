@@ -1,0 +1,31 @@
+to format document using prettier:
+    shift + alt + F
+
+to toggle word wrap or to remove the horizontal bar from the screen width:
+    press alt + z 
+    
+to open command palette:
+    ctrl + shift + p
+
+to move the whole line up or down:
+    alt + up/down arrow key
+
+to jump into new line:
+    ctrl + Enter
+
+to create multiple cursors:
+    alt + click anywhere
+
+to duplicate a whole line:
+    ctrl + d
+    alt + shift + down arrow key    (set bydefault)
+
+to zoom in or out in vs code:
+    ctrl + mouse scroll up/down 
+
+to delete any word:
+    ctrl + backspace
+
+
+
+

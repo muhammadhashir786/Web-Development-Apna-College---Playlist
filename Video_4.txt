@@ -1,0 +1,294 @@
+Video No 04:
+
+What is HTML Form:
+
+form is a powerful tool if we need to collect different types of data from the user like you see a sign up form in any website so that is called the HTML form 
+
+comment section of the youtube is also a form in which user gives input and it sends information to the server by pressing submit button
+
+Form Tag:
+
+Form tag defines a form in HTML document
+to create a form in webpage use the form tag
+
+Syntax:
+
+    <form></form>
+
+2 Attributes of Form Tag:
+
+There are 2 most important attributes in the form tag:
+
+1. method attribute
+2. action attribute
+
+1. Method Attribute:
+
+alag alag tariqe hote hn jis se ham server tak is information ko bhej rhe hote hn jo hamne user se collect kia hai 
+
+There are 2 methods of method attribute in form:
+
+    1. get 
+    2. push 
+
+2. Action Attribute:
+
+action m ham vo URL daalte hn jahan p hamen is form ka data send krna hota hai
+ham ksi server p is form ka data bhejte hn or us server ka jo URL hota hai vo ham is action attribute k ander daalte hn
+
+Syntax:
+
+    <form action="URL of server"></form>
+
+Elements of Form Tag:
+
+there are some important Elements of form tag that are used in html form
+
+    1. input
+    2. textarea 
+    3. select
+
+1. Input Element:
+
+input is the most important element of form tag
+it defines input from the user in html form
+it is used to take input in different types from the user 
+
+Attributes of input Element:
+
+There are 3 attributes of input Element in the html form 
+
+    1. type attribute
+    2. name attribute
+    3. value attribute
+
+1. Type Attribute:
+
+there is a type attribute in input Element by which we takes different types of input from the user 
+
+Syntax:
+
+    <input type=""> 
+
+10 Values of Type Attribute:
+
+There are 10 values of type attribute in input Element:
+
+    text
+    password
+    radio
+    checkbox
+    file
+    submit
+    reset 
+    image
+    email
+    number
+
+1. Input Type Text:
+
+if we need to take input from the user in the form of normal text then we use "input type text" 
+
+Syntax:
+
+    <input type="text"> 
+
+Code:
+
+    <form>
+        First Name: <input type="text">
+    </form>
+
+2. Input Type Password:
+
+if we need to take input from the user in the form of Password then we use "input type password" 
+the characters of password that user type will be hidden
+
+Note:   if a user type anything in "input type password" then all the characters will be hidden
+
+Syntax:
+
+    <form>
+        <input type="password">
+    </form>
+
+Code:
+
+    <form>
+        Enter Password: <input type="password">
+    </form>
+
+3. Input Type Radio:
+
+we specify more than 1 options or values in the form but user can select anyone option or value at a time from all the options like we see in a gender option in forms, this is happen by "input type radio"
+
+Syntax:
+
+    <input type="radio"> 
+
+iska code detail m dekhenge 
+
+4. Input Type Checkbox: 
+
+There are some checkboxes in the form and user can check multiple types of checkboxes at a time in the form 
+
+Syntax:
+
+    <input type="checkbox">
+
+5. Input Type File:
+ 
+it displays a button in html form and user can upload any file from computer by clicking on in this button
+
+Syntax:
+
+    <input type="file">
+
+6. Input Type Submit:
+
+There are different types of buttons in html form like submit or reset button
+
+there is a submit button in html form
+when we completely fill the form then we can submit form by clicking on the submit button
+when we click on submit button our data will be send to google 
+
+Syntax:
+
+    <input type="submit">
+
+7. Input Type Reset:
+
+there is a Reset button in html form
+when we completely fill the form and we check the form again any we will find that we made some mistakes in the form then we need to reset it, so we can reset form by clicking on the reset button
+
+Syntax:
+
+    <input type="reset">
+
+8. Input Type Image:
+
+There is an image button in html form 
+by clicking on image button, user can upload image in the form
+
+Syntax:
+
+    <input type="image">
+
+2. Name Attribute:
+
+there is a name attribute in html form 
+
+we type any name related to "input type" 
+ye saari cheezen server k ander store hoti hn to hamen dhiyaan rakhna hota hai
+
+name attribute ka use ham tab krte hn jab hamen ksi form m user se koi input required hota hai input tag k ander, to ham name attribute use krte hn apni asaani k lye  
+name attribute k ander ham jo bhi value daalte hn vo hamari pehchaan k lye hota hai k ye jo data server p aaya hai ye kis "input type" ka data hai 
+
+input m ham reference dete hn server ko taa k developer smajh jaie k ye user k kis cheez ka data hai
+
+to agr ham user se first name or last name input le rhe hn to ham is k saath name attribute is trah use krenge first name k sath "fname" attribute or iski value m "userfirstname" likhenge or isi trah last name k lye krenge
+
+q k vo value server m jaiegi or usk sath attach hoga user ka data or name se ye pta chalega k ye data user ka first name hai or is k ander jo value hai vo, vo vala data hai jo frontend se aya hai   
+
+Syntax:
+
+    <input type="" fname="">
+    <input type="" lname="">
+
+Code:
+
+    <form>
+        First Name: <input type="text" fname="userFirstName">
+        Last Name: <input type="text" lname="userLastName">
+    </form>
+
+ab ye name k sath jo data ja rha hai vo aata hai "value attribute" k ander 
+
+3. Value Attribute:
+
+ham input Element k ander name k sath 1 or attribute use kar sakte hn jo k hai value attribute
+value kabhi kabhi hamen khud se define krni parti hai jese ham radio button ya koi checkbox le rhe hn to usme hamen khud se likhna hota hai 
+
+lekin agr ham "input type" m data le rhe hn to ham value ko khali chor dete hn user k traf se or user usme jo value likhega vo server tak chali jaiegi
+
+to input Element m name or value attributes ka use kia jata hai 
+name and value attributes are used in input tag in the form tag
+
+2. TextArea:
+
+it is similar to input type text but in the textarea we can take input from the user by multiple rows and columns like facebook post, blog post
+jo bara input type hota hai vahan p textarea use kr rhe hote hn 
+
+Syntax:
+
+    <textarea></textarea>
+
+3. Select:
+
+we use select tag in the html form
+or is se ham user ko 1 drop down list bana k de sakte hn jis me alag alag options honge or user usme se koi 1 select kr sakta hai
+
+eg: if we want to know what is the city of user? we provide some cities option in select tag and user can select only your's city 
+
+Syntax:
+
+    <select></select>
+
+Tags Used In Select Element:
+
+there are 1 tag that are used in select element:
+
+    1. option tag
+
+1. Option Tag:
+
+Option tag defines values in select tag 
+we use option tag to show different types of options/values in select tag 
+
+Syntax:
+
+    <select>
+        <option></option>
+    </select>
+
+Attributes Used In Option Tag:
+
+There are 1 attribute that are used in option tag:
+
+    1. value
+
+1. Value Attribute:
+
+Value attribute defines some values of option tag in select element
+
+Syntax: 
+
+   <select>
+        <option value="">Content of option tag which is display</option>
+   </select>
+
+Code: 
+
+    <p>Choose your city: 
+        <select>
+            <option value="karachi">Karachi</option>
+            <option value="lahore">Lahore</option>
+            <option value="islamabad">Islamabad</option>
+        </select>
+    </p>
+
+Details:
+
+there are 2 types of details or input that we take from the user:
+
+    1. User Details
+    2. Payment Details
+
+1. User details:
+
+it includes name, gender, address, email, phone number, password, pincode etc.
+
+2. Payment Details:
+
+it inclued card type, card no, expiration date, cvv etc
+

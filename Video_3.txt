@@ -1,0 +1,889 @@
+Video No: 03
+
+HyperLink:
+
+HyperLink ki wja se web m 1 jaal ban saka hai
+agr ham google m koi search krte hn, to hamare pas bht saare results ajate hn, or in results pr ham agr click krte hn to 1 new website open hojati hai, to jis cheez p aapne click kia hai usko HyperLink kehte hn 
+
+we use anchor tag to create a HyperLink in a webpage
+
+Anchor Tag:
+
+Anchor tag defines a link in html document
+it is inline element
+ksi bhi website m koi bhi link hota hai to vo anchor tag ki madad se hota hai
+
+Syntax:
+
+    <a></a>
+
+3 Attributes of Anchor Tag:
+
+There are 3 attributes of anchor tag:
+
+1. href
+2. target
+3. title
+
+1. href Attribute:
+
+there is an important attribute in anchor tag which is "href" attribute
+href is the attribute where we specified the link of any website 
+href k ander ham URL daal sakte hn jis se ham ksi bhi website, file, ya website ka koi section, ya ksi bhi cheez ko ham ko link kr sakte hn 
+
+What is URL?
+
+URL stands for Uniform Resource Locator
+agr hamen poore web m koi bhi cheez ki location deni ho to ham URL ka use krte hn
+or ye hamare ghr k address ki trah unique hota hai 
+
+URL is also known as the location, path or address or anything in the web   ---------- 
+
+2 Types of URL:
+
+There are 2 types of URL:
+
+    1. Absolute URL
+    2. Relative URL
+
+Absolute URL/Path:
+
+start se le k end tak ka jo path hota hai target file ka, usko Absolute URL kehte hn 
+ksi bhi cheez ka complete address Absolute URL kehlata hai 
+
+eg:     city k center se aap k ghr ka path Absolute path hota hai
+
+Relative URL/Path:
+
+jahan pr abhi aap present hn vahan se le k aap k ghr ka path Relative path hota hai 
+current file se le k (jisme ap code kr rhe hn), targert file tak ka jo path hota hai usko Relative URL kehte hn 
+
+3 Types of Relative URL:
+
+Moving into the File locations in Relative URL:
+
+There are 3 situations of moving into the file locations in Relative URL:
+
+    1. moving into the folder (go to sub-folder) 
+    2. files present in the same folder where you code 
+    3. moving out of the folder (go to parent folder) 
+
+1. (Moving Out of The Folder) Go to Sub-Folder:
+
+if your target file is present in the sub-folder where you code
+in this case just type "folder name" then type "/" then type "file name" with extension in the "href" attribute of anchor tag <a></a>
+
+Syntax:
+
+    <a href="foldername/filename with extension">Content of Anchor Tag</a>
+
+Code:
+
+    <a href="new/main.html">Go to Main</a>
+
+2. Files Present In The Same-folder:
+
+if your target file is present in the same location where you code
+in this case just type the file name with extension in "href" attribute of anchor tag
+
+Syntax:
+
+    <a href="filename with extension">Content of Anchor Tag</a>
+
+Code:
+
+    <a href="main.html">Go to Main</a>
+
+3. Moving Out of The Folder (Go To Parent Folder):
+
+if your target file is present out of the folder where you code
+in this case just type "../" then type "foldername/filename with extension in href attribute of anchor tag
+
+Syntax:
+
+    <a href="../folderName/filename with extension">Content of Anchor Tag</a>
+
+Code:
+
+    <!-- link of Relative URL (Internal Webpage)
+
+    <a href="../main.html">Go to Main</a>
+
+How to Move Out of more than 1 Folders?
+
+    ../                 go outside from 1 folder
+    ../ ../             for 2 folders
+    ../ ../ ../         for 3 folders
+    ../ ../ ../ ../     for 4 folders
+
+now you can see our link will be open in the existing browser tab
+
+Code:
+
+    <!-- link of Absolute URL (External Webpage)
+
+    <a href="https://www.google.com">Go To Google</a>
+
+    <!-- link of Relative URL (Internal Webpage)
+
+    <a href="main.html" target="_blank">Go To Main</a
+
+2. Target Attribute:
+
+if you want to open linked webpage in a new tab then use the "target" attribute
+value of target attribute is "_blank"
+
+Code:
+
+    <!-- link of Absolute URL (External Webpage)
+
+    <a href="https://www.google.com" target="_blank">Go To Google</a>
+
+    <!-- link of Relative URL (Internal Webpage)
+
+    <a href="main.html" target="_blank">Go To Main</a>
+
+Values Of Target Attribute:
+
+there are 4 values of target attribute:
+
+_blank
+
+Practice:
+
+Link of Relative webpages  
+Link of Absolute webpages 
+
+Absolute: 
+
+link of google drive where our files or notes are present
+
+syntax:
+
+    <a href="https://......" target="_blank" rel="noopener noreferrer">Notes In Our Google Drive</a>
+
+Relative:
+
+link of our notes that are present in same location or Relative path:
+
+syntax:
+
+    <a href="filename.pdf" target="_blank">Notes In Same Location</a>
+    <a href="Notes/filename.pdf" target="_blank">Notes In Same Location</a>
+    <a href="../Notes/filename.pdf" target="_blank">Notes In Same Location</a>
+
+now You understand that how to link any webpage or navigate between webpages by using links anchor tag
+
+
+
+
+
+
+
+
+
+
+
+Some Points About Frontend & Backend:
+
+jab bhi ham ksi bhi website ko open krte hn to uska jo frontend vala part hota hai to vo hamare browser m display ho jata hai
+
+to agr aap us code ko dekhna chaho jo hamare browser m load huwa hia to us k lye hamare pas 2 options hote hn 
+
+right click on empty area on any webpage 
+there are 2 options visible to you 
+inspect element and view page source 
+
+View Page Source:
+
+view page source is used to see the frontend source code of any website  
+press ctrl + u to open view page source
+we can also change frontend code in your browser for temporarily but if we reload the page again the changes will be removed and file will become in original form   
+
+because the original file is saved in the server (database) not our computer's browser
+hamare pas vo file to agai hai server se lekin ham kuch bhi change krnge us file m to server p change nhi hoga sirf hamare browser p change hoga or jab ham reload krnge to file apni original form m hojaiegi 
+
+This is how frontend and Backend works
+
+Inspect Element:
+
+inspect element is used to inspect any elements in a webpage
+press ctrl + shift + i to open inspect element in a webpage
+
+Features of Inspect Element:
+
+there many options in inspect element:
+
+you can change the html, css and js code for temporarily
+you can check the responsiveness of website in different screen sizes
+you can also the optimized score of website
+you can also click on a particular element and inspect it 
+
+Image Tag:
+
+image tag defines an image in the html document
+we use image tag in html document to link any image in the webpage
+it is inline element
+it is a self-closing tag, it does not have a closing tag
+ksi bhi website m koi bhi image display ho rhi hoti hai to vo image tag ki madad se hoti hai
+
+
+Syntax: 
+
+    <img>
+
+Attributes of Image Tag:
+
+There are 5 attributes of image tag:
+
+    1. src 
+    2. alt 
+    3. title
+    4. height 
+    5. width 
+
+1. src Attribute:
+
+we give the image location in the src attribute using URL
+there may be Absolute or Relative links of image
+
+Code:
+
+    <!-- Relative Image Link -->
+
+    <img src="images/image.jpg">
+
+for Absolute link, find the image on internet copy the link of that image and paste it in "src" attribute
+
+2. alt Attribute:
+
+alt is the attribute to display the alternate text when your image file does not exist due to some error in server or your have been deleted or give the wrong file location so in this case an alternative text will be display instead of image, so what is that alternate text? you will write this in "alt" attribute.
+
+Code:
+
+    <!-- file location is wrong, alt text will be display -->
+
+    <img src="wrong file location" alt="This is an image"
+
+3. Width Attribute:
+
+we use width attribute to change the width of image
+we can specify the size of width in pixels
+
+Code:
+
+    <!-- Relative Image Link -->
+
+    <img src="images/image.jpg" width="350px">
+
+now you will see image in the website, you observe height of image will also change, if you only give the height or width attribute then other attribute will change because it automatically maintains the image ratio
+
+4. Height Attribute:
+
+we use height attribute to change the height of image
+we can specify the size of height in pixels
+
+Code:
+
+    <!-- Relative Image Link -->
+
+    <img src="images/image.jpg" height="200px">
+
+if we use height and width both attributes in src attribute, then aspect ratio of the image will be bigar jaiega
+
+Code:
+
+    <!-- Relative Image Link -->
+
+    <img src="images/image.jpg" width="350px" height="200px">
+
+to maintain the aspect ratio of the image, use anyone 1 attribute only
+
+Video Tag:
+
+video tag defines a video in html document
+to display any video in the webpage use the video tag
+it is similar to image tag
+it is inline element
+
+Syntax:
+
+    <video></video>
+
+7 Attributes of Video Tag:
+
+There are 7 attributes of video tag:
+
+    1. src 
+    2. width
+    3. height
+    4. controls
+    5. autoplay
+    6. muted
+    7. poster
+
+1. src Attribute:
+
+we define the location of video in src attribute similar to image Tag 
+there may be Absolute or Relative links of video
+
+Code:
+
+    <!-- Relative Video Link -->
+
+    <img src="video/video.mp4">
+
+Note:   Width and Height attributes defines in the image tag 
+        we use width and height attribute in the video tag same as image tag
+
+now you can see our video display in the webpage but there is no controls and play button for this video to play
+
+4. controls Attribute:
+
+we use "control" attribute to show different types of buttons for video like play/pause button, volume low/high button and full-screen button, etc. 
+
+Code:
+
+    <!-- Relative Video Link -->
+
+    <img src="video/video.mp4" controls>
+
+so why did we give control attribute in video tag?
+
+5. autoplay Attribute:
+
+if we want to autoplay video in our website so we can use autoplay attribute in video tag
+this attribute does not have buttons to show
+if a user come to your website then video will be play automatically
+there will no buttons in video to pause and control volumes of this video 
+
+Code:
+
+    <!-- Relative Video Link -->
+
+    <img src="video/video.mp4" autoplay>
+
+6. Loop Attribute:
+
+loop attribute plays video again and again 
+if video ends then again starts, your video always play never stops until so go back to that website 
+
+Code:
+
+    <!-- Relative Video Link -->
+
+    <img src="video/video.mp4" loop>
+
+7. Muted Attribute:
+
+muted attribute defines mute video in html document
+if we use muted attribute in our html document then our vide starts muted in the website, there is no sound in our video itsel, until you unmute video from buttons in video
+
+Code:
+
+    <!-- Relative Video Link -->
+
+    <img src="video/video.mp4" muted>
+
+8. poster Attribute:
+
+Poster attribute defines a thumbnail for your video like youtube videos
+if we apply thumbnail in the video of our website then we use poster attribute
+first create thumbnail in our computer
+then give the location of thumbnail in poster attribute same as "src" attribute in the form of URL
+
+Code:
+
+    <!-- Relative Video Link -->
+
+    <img src="video/video.mp4" poster="images/image.jpg">
+
+Iframe Tag
+
+we can display another website or any video from youtube to our website
+is se ham doosri website ko apni website m display krva sakte hn
+or youtube ki ksi bhi video ko bhi display krva sakte hn
+or is cheez ko ham embedding kehte hn 
+
+Syntax:
+
+    <iframe></iframe>
+
+How to Embed any video from youtube?
+
+open any video on youtube
+click share button
+click embed 
+then you can see some codes below the Embed Video
+copy that codes 
+and paste it in Iframe tag in html document
+
+Attributes of Iframe Tag:
+
+There are   attributes of iframe tag:
+
+    1. src 
+    2. width
+    3. height
+    4. frameborder
+    5. allow
+    6. allowfullscreen
+
+Note:   src, width and height attributes are same as image tag 
+
+Code:
+
+    <iframe src="URL of website or any youtube video" width="400px" height="600px"></iframe>
+
+4. Frameborder Attribute:
+
+A frame will display on sorrounding of our content
+hamare content k surrounding frame ajata hai
+
+Code:
+
+    <iframe src="URL of embedded website or video" width="400px" frameborder="2"></iframe>
+
+5. Allow Attribute:
+
+Allow attribute allows some options in our embedded website or video
+it have multiple values
+
+Code:
+
+    <iframe src="URL of embedded website or video" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+
+6. AllowFullScreen Attribute:
+
+it shows a full-screen button in embedded website or Video
+it does not have any value
+
+Code:
+
+    <iframe src="URL of embedded website or video" allowfullscreen></iframe>
+
+Practice:
+
+Embed any website and youtube video and use above Attributes
+
+Topics:
+
+HyperLink
+Anchor Tag:
+3 Attributes of Anchor Tag:
+1. href Attribute:
+What is URL?
+2 Types of URL:
+Absolute URL/Path:
+Relative URL/Path:
+3 Types of Relative URL:
+Moving into the File locations in Relative URL:
+1. (Moving Out of The Folder) Go to Sub-Folder:
+2. Files Present In The Same-folder:
+3. Moving Out of The Folder (Go To Parent Folder):
+How to Move Out of more than 1 Folders?
+2. Target Attribute:
+Values Of Target Attribute:
+
+Some Points About Frontend & Backend
+View Page Source
+Inspect Element
+Features of Inspect Element
+
+Image Tag
+Attributes of Image Tag
+1. src Attribute
+2. alt Attribute
+3. Width Attribute
+4. Height Attribute
+
+Video Tag
+7 Attributes of Video Tag
+1. src Attribute
+width & height attribute
+4. controls Attribute
+5. autoplay Attribute
+6. Loop Attribute
+7. Muted Attribute
+8. poster Attribute
+
+Iframe Tag
+How to Embed any video from youtube?
+Attributes of Iframe Tag
+src, width and height attributes
+4. Frameborder Attribute
+5. Allow Attribute
+6. AllowFullScreen Attribute
+Practice
+
+Table:
+
+Table tag defines table in html document
+tables are used to store data in a tabular and structured form
+table is used to make things like timetable, Marksheets and results
+it is block element
+
+Syntax:
+
+    <table></table>
+
+What does table consists of?
+
+tables are made up of cells
+Every cells consists into 2 main parts:
+
+    1. rows 
+    2. columns
+
+1. Rows:
+
+the horizontal strip of cells are called Rows of table
+
+2. Columns:
+
+the vertical strip of cells are called Columns of table
+
+7 Tags Used In Tables:
+
+There are 7 tags that are used when we create a table in html document
+
+    1. tr tag
+    2. th tag
+    3. td tag
+    4. thead tag
+    5. tbody tag
+    6. tfoot tag
+    7. caption tag
+
+1. tr Tag:
+
+How to create Rows in table?
+
+There is a tr tag in html 
+tr stands for table row 
+we use tr tag to create each/every rows in a table  
+
+Note:   Table row <tr></tr> tag is present inside the table tag
+        There may be many rows in a table
+        
+Syntax:
+
+    <tr></tr>
+
+Code:
+
+    <table>
+        <tr></tr>
+        <tr></tr>
+        <tr></tr>
+    </table>
+
+2. th Tag:
+
+There is a "th" tag in html
+"th" stands for table header
+we use "th" tag to create "headings" in the first row of the table
+th tag makes highlighted content in a table row 
+1 th tag creates only 1 column in a single row in the table
+multiple th tags create many columns in a single row in the table
+
+Note:   Table header "th" tag is present inside the table row tag <tr></tr>
+        There is only 1 header in a table which is present in the first Row at the top of the table where Table Rows starts
+
+Syntax:
+
+    <th></th>
+
+Code:
+
+    <!-- Table contains 3 columns in 1 row: -->
+
+    <table>
+        <tr>
+            <th>No</th>
+            <th>Name</th>
+            <th>Skills</th>
+        </tr>
+    </table>
+
+3. td Tag:
+
+There is a "td" tag in html 
+td stands for Table Data
+
+table row k ander ham table data daalte hn  
+
+we use td tag to store data in a table row and columns
+1 table row m jitne no of columns honge utni dafa "td" tag use krna hoga single row k ander
+
+Note:   Table Data "td" tag is present inside the table row tag <tr></tr>
+        "td" tags start from the second row in a table  
+        There may be many table data tags in a table
+
+Syntax:
+
+    <td></td>
+
+Code:
+
+    <!-- Table contains 3 rows & 3 columns: -->
+
+    <table>
+        <tr>
+            <th>No</th>
+            <th>Name</th>
+            <th>Skills</th>
+        </tr>
+        <tr>
+            <td>01</td>
+            <td>Ahmad</td>
+            <td>Web Developer</td>
+        </tr>
+        <tr>
+            <td>02</td>
+            <td>Kamran</td>
+            <td>Web Designer</td>
+        </tr>
+    </table>
+
+2 Attributes of Table Tag:
+
+There are 2 attributes of table tag:
+
+    1. rowspan
+    2. colspan
+
+1. Rowspan Attribute:
+
+rowspan attribute merges 2 or more rows in a table
+it spreads vertically between the rows in a table
+it spread rows between 2 or more rows in the table
+
+Note:   rowspan always defines in the "table data" tag <td></td>  
+
+Syntax:
+
+    <td rowspan="2"></td>
+
+Code:
+
+    <!-- Table contains 3 rows & 3 columns: -->
+
+    <table>
+        <tr>
+            <th>No</th>
+            <th>Name</th>
+            <th>Skills</th>
+        </tr>
+        <tr>
+            <td>01</td>
+            <td>Ahmad</td>
+            <td rowspan="2">Web Developer</td>
+        </tr>
+        <tr>
+            <td>02</td>
+            <td>Kamran</td>
+
+        </tr>
+    </table>
+
+2. Colspan Attribute:
+
+colspan attribute merges 2 or more columns in a table
+it spreads horizontally between the columns in a table
+it spread 2 or more columns in a single row in the table
+
+Note:   colspan always defines in the "table data" tag <td></td>  
+
+Syntax:
+
+    <td colspan="2"></td>
+
+Code:
+
+    <!-- Table contains 4 rows & 2 columns: -->
+
+    <table>
+        <tr>
+            <th>Month</th>
+            <th>Saving</th>>
+        </tr>
+        <tr>
+            <td>January</td>
+            <td>$100</td>
+        </tr>
+        <tr>
+            <td>February</td>
+            <td>$50</td>
+        </tr>
+        <tr>
+            <td colspan="2"> Sum: $50</td>
+        </tr>
+    </table>
+
+Table Structure:
+
+we can create a table structure by using some tags
+
+there are 3 tags that makes a table structure:
+
+    1. thead Tag
+    2. tbody Tag
+    3. tfoot Tag
+
+Jab ham table banate hn to sab se oper ham table header banate hn jisme first row k ander bht saare columns hote hn ham har 1 column k lye heading likhte hn <th></th> ki help se or hamare table ka jo bhi data/content hota hai vo ham <td></td> tag ki help se likhte hn table tag k ander.
+
+so <th></th> and <td></td> tags are divided into 2 parts with <thead></thead> and <tbody></tbody> tags
+
+These tags do not make changes in User Interface 
+it only makes the structure of table
+
+1. Thead Tag:
+
+thead tag is called Table Head 
+it is the head of the table
+it is the upper part of the table that includes main heading of table and no of columns that are present in the 1st row of table
+it contains table caption, table row <tr></tr> & table header <th></th> tags
+
+Syntax:
+
+    <thead></thead>
+
+Code:
+
+    <table>
+        <thead>
+            <tr>
+                <th>Month</th>
+                <th>Saving</th>
+            </tr>
+        </thead>
+    </table>
+
+
+2. Tbody Tag:
+
+tbody tag is called Table Body 
+it is the body of the table
+it is the main part of the table that includes all the contents of table with many rows and columns
+it contains table rows <tr></tr> & table data <td></td> tags
+
+Syntax:
+
+    <tbody></tbody>
+
+Code:
+
+    <table>
+        <body>
+            <tr>
+                <td>January</td>
+                <td>$100</td>
+            </tr>
+        </body>
+    </table>
+
+3. Tfoot Tag:
+
+tfoot tag is called Table Footer
+it is the footer of the table
+it is the ending or last part of the table that includes result/conclusion/summary of the table and no of columns that are present in the last row of table
+it contains table row <tr></tr>, table data <td></td> & or table header <th></th> tags
+
+Syntax:
+
+    <tfoot></tfoot>
+
+Code:
+
+    if we create a marksheet table and if we need sum of all the marks then we use tfoot tag in the last of the table:
+
+    <table>
+        <tfoot>
+            <tr>
+                <th>Total Marks: 850</th>
+            </tr>
+        </tfoot>
+    </table> 
+
+Table Caption Left
+
+A Complete Table Structure With Table Head & Body:
+
+Code:
+
+    <!-- Creates A Result Of A Student -->
+
+    <table>
+        <thead>
+            <tr>
+                <th>Subject</th>
+                <th>Theory</th>
+                <th>Practical</th>
+                <th>Total Marks</th>
+                <th>Grades</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>English</td>
+                <td>65</td>
+                <td>-</td>
+                <td>65</td>
+                <td>A</td>
+            </tr>
+            <tr>
+                <td>Computer</td>
+                <td>75</td>
+                <td>-</td>
+                <td>75</td>
+                <td>A+</td>
+            </tr>
+            <tr>
+                <td>Math</td>
+                <td>70</td>
+                <td>-</td>
+                <td>70</td>
+                <td>A+</td>
+            </tr>
+            <tr>
+                <td>Physics</td>
+                <td>68</td>
+                <td>20</td>
+                <td>88</td>
+                <td>A</td>
+            </tr>
+            <tr>
+                <td>Chemistry</td>
+                <td>73</td>
+                <td>22</td>
+                <td>95</td>
+                <td>A+</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <th colspan="5">Result: Pass</th>
+        </tfoot>
+    </table>
+
+Code:
+
+    <table>
+        <thead>
+            <tr>
+                <th>Month</th>
+                <th>Saving</th>
+            </tr>
+        </thead>
+        <body>
+            <tr>
+                <td>January</td>
+                <td>$100</td>
+            </tr>
+            <tr>
+                <td>February</td>
+                <td>$50</td>
+            </tr>
+        </body>
+    </table>
+

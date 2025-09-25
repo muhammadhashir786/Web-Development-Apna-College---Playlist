@@ -1,0 +1,73 @@
+Video No 05:
+
+There are multiple webpages in a website
+webpages are different to each other but sab m 1 similar pattern hota hai us k hisaab se html m 1 structure hota hai or ye hamare code ko kaafi readable banata hai agr ham is structure m code krenge to lets see how's this structure?
+
+The upper part of a website is called Header 
+there is a strip in every website it includes navigations and links, headings, logo, name and intro of the website 
+and if we visit another webpage of that website so mostly header remains the same 
+so in this section of website jo bhi elements aienge unko header tag k ander likhenge
+
+all the contents that are present in the upper part of the website put in the header tag 
+
+there is a navigation bar in which menu buttons, links or tabs
+it is like similar to header and consisitent in all the webpages or isme ham content wrap krne k lye nav tag ka use krenge 
+
+some peoples also put navigation under the header tag, there is no problem
+
+now there is main tag, this is the main center area of the webpage 
+we put the main content of our webpage in main tag 
+
+there are sections in main tag jis k lye section tag use krte hn   
+we keep single peace of functionality means we type some peace of content and does not repeat them like testimonial, contact us section etc.  
+
+there is an article tag in section jis k ander blog ya post type ki cheezen aati hn 
+
+then there is a side bar in the webpage that includes quotes, adds or youtube video in the sidebar, 
+so this sidebar put in the aside tag 
+
+there is a footer tag in html looks like a strip and same in all webpages that includes the last part of the webpage in which faq, copyright, author, contact info are includes
+
+these are semantic Tags
+
+Semantic Tags:
+
+vo tags jo browser or developer dono k lye kuch meaning rakhte hon 
+
+heading tags
+nav Tags
+
+
+Non-Semantic Tags:
+
+the tags that do not have any meaning in html document 
+
+div tag     (block element) 
+span tag    (inline element)
+
+Inline Elements:
+
+vo elements that takes only those space in the webpage that it requires 
+
+Block Elements:
+
+the elements that takes horizontally complete width in the webpage that it does not require are block Elements
+
+code:
+
+    <p>this is first para</p>
+    <p>this is first second para</p>
+    <p>this is first third para</p>
+    <em>this is emphasized tag</em>
+    <em>and this is inline element</em>
+
+To Create A Website:
+
+visualize the website
+we can make that website layout by pen and paper or using any tool 
+we use whimsical to make the layout of the website 
+now we will structure the website using html 
+
+use live server in vs code
+ 
+

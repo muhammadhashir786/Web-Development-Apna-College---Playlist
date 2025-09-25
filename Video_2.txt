@@ -1,0 +1,1235 @@
+Video No: 02
+
+Define html.
+
+first we learn abcd in English, same as in web dev the first thing is to learn html
+html is like abcd of any website 
+because any website does not exist without html
+HTML stands for hypertext markup language
+jesa k name se pta chal rha hai k html koi programming language nhi hai balke markup language hai
+
+What is markup language?
+
+1 aesi language jisme ham kuch tags ki help se browser ko instructions dete hn ya btate hn or phir browser usko smajh k ksi bhi webpage ko display krta hai
+
+html is a very simple language
+html is made up of many elements
+
+OR
+
+What does html consists into?
+
+html consists into 3 main parts:
+
+Tags 
+Elements
+Attributes
+
+Overview of tags, elements and attributes:
+
+there are some tags in html
+html is made up of many different tags
+and elements are made up of these tags
+elements are the individual components of any html document
+and every elements have its own meaning
+
+2 Types of Tags in HTML:
+
+opening tag     (start tag)
+closing tag     (end tag)
+
+Note:   hover any html tag to know more about that tag
+
+Generally there are 2 types of tags in html but there are 1 more tag in html which is called Empty Tag
+
+Empty Tag:
+
+An html tag that does not have a closing tag is called Empty tag
+
+Examples:   <br>, <hr>, <img> etc 
+
+Syntax of Tags:
+
+    <opening tagName>       </closing tagName>
+
+Example of Tags:
+
+Code: 
+
+    <p> </p>     (this is paragraph tag)
+
+Element:
+
+there is some content in between opening and closing tag
+then the combination of opening tag, some content and closing tag is called element
+Everything from the start tag to the end tag is element
+
+Syntax of Element:
+
+<opening tagName> some content </closing tagName>
+
+Example of Element:
+
+Code: 
+
+    <p> this is some content </p>     (this is paragraph tag)
+
+but there are some elements, that does not have any content and closing tag like <img>, <br> and <hr> tags, etc
+
+code:
+
+    <img src="image.jpg"> 
+
+image element ka content text m nhi hota hai, to isme ham image file ki location dete hn src attribute k ander, 
+or us k lye ham sirf opening tag ka use krte hn or isi lye closing tag ka use nhi hota hai
+
+Nesting of Elements:
+
+Elements inside element is called Nesting of elements.
+ksi bhi element k ander doosra element use krna Nesting of elements kehlata hai 
+we can do nesting of elements many times
+we can keep many elements in a single element
+
+Example of Nesting of Elements:
+
+<body>
+    <h1> this is heading tag </h1>
+    <p> this is paragraph tag </p>
+</body>
+
+we can also give boiler plate code or html basic page structure as an Example of nesting of elements 
+
+or is se ham elements ki properties ko mix kr sakte hn 
+or uski wja se poora document ka structure banta hai
+lekin agr ham html m sirf elements ka hi use kren, to html document 1 word ya google doc jesa document lagega, jisme sirf kuch text formatting ho rakhi hn.
+to html m ham use krte hn attributes jo un elements k ander jaan daal deta hai. 
+
+So these are Elements in HTML 
+
+What are Attributes?
+
+we give some additional properties to every elements
+like in the image element we use height and width attributes to increase the length and breadth of image
+we define attributes in the starting tag of any element
+
+Syntax of attributes:
+
+Code: 
+
+    <startingTag attributeName = "attributeValue">
+
+Example of attributes:
+
+if we use paragraph tag, we can define align attribute in it to align paragraph in center:
+
+Code: 
+
+    <p align="center"> this is some content </p>
+
+3 Types of Attributes:
+
+i. Required attributes
+ii. Boolean attributes
+iii. General Purpose attributes
+
+Required Attributes:
+
+There are some tags in html in which some specific attributes are required like src attribute in image tag
+
+1st example:
+
+Code: 
+
+    <img src="location.jpg"> 
+
+there is no content in the image tag,
+we can define the location of image in the src attribute of image element 
+so that's why src attribute is required in image tag, otherwise image tag does not work
+
+These are the Required Attributes in html
+
+Boolean Attributes:
+
+There are some attributes in html that do not have any value like below:
+
+Code: 
+
+    <input type="text" disabled>
+
+is se koi bhi element disable ho jata hai or ham isko baad me use nhi kr sakte
+
+Code:
+
+    <input type="text" required>
+
+whenever we fill any form and we did not type our name in the name section and try to submit form
+then it does not submit, it will show you name is required in this form to submit it.
+
+These are the Boolean Attributes in html
+
+General Purpose Attributes:
+
+There are some attributes in html that we used so much in web development, these are called General purpose attributes.
+we can use general purpose attributes in any element of html 
+or ye aese attributes hn jo ham ksi bhi element m use kr sakte hn
+
+Some General Purpose Attributes are:
+
+i.  id 
+ii. class
+
+id Attribute:
+
+id attribute is the unique name of an element
+we give a unique name to any element using id attribute 
+
+ham id attribute ki value kuch bhi rakh sakte hn but poore document m unique honi chahye matlab vo same value ksi doosre id attribute ki nhi honi chahye
+
+you will think every element already have its own name, so why will we give another unique name to any element?
+
+hamne yahan element ko 1 unique name diya hai jo k poore html document m sirf 1 element ka hi hai,
+ham 1 element ko 1 hi id de sakte,
+or us se ham sirf us 1 particular element ko target kr sakte hn or use kr sakte hn
+agr hamare html document me bht saare elements hn or ham unme se ksi 1 element ko target krna chahte hn to ham id attribute ki madad se kr sakte hn 
+
+Example of id attribute:
+
+if we have 2 paragraphs in a webpage
+and we want to give different colors to both paragraph.
+then we give unique id to both paragraph elements
+
+Code:
+
+    <p id="first"> This is first paragraph with some content </p>       (1st paragraph)
+    <p id="second"> This is second paragraph with some content </p>     (2nd paragraph)
+
+use CSS:
+
+Code:
+
+#first {
+    color: blue;            (for 1st paragraph)
+}
+
+#second {
+    color: red;             (for 2nd paragraph)
+}
+
+class attribute:
+
+class attribute is the non-unique name of an element
+class attribute is similar to id but opposite to id attribute, bas yahan vo unique nhi hota, same name hota hai 
+we give the same name to multiple elements using class attribute
+ham 1 se ziada elements ko same class de sakte hn
+or is se ham un tamam elements ko 1 class ki help se target kr sakte hn
+
+ham class attribute ki value kuch bhi rakh sakte hn or 1 se ziada elements ko same class de sakte hn matlab vo same value ksi doosre class attribute ko de sakte hn 
+
+we can also use the value of id attribute in the value of class attribute 
+but we can not use the value of id attribute in other id attribute
+
+Example of class attribute:
+
+if we have 2 paragraphs in a webpage
+and we want to give same colors to both paragraphs
+then we give same class to both paragraph elements
+
+there are 2 methods to give same colors to both paragraphs:
+
+give a unique id to both elements
+give a same class to both elements
+
+Not recommended:
+
+if we give id to both paragraphs then hamara kaam kafi barh jaiega or ham 1 id se 1 hi element ko control kr sakte hn, agr hamare pas bh saare elements hn to hamen sab ko alag alag unique id deni hogi or bht lamba process hojaiega 
+
+Recommended:
+
+but if we give class to both paragraphs then hamara kaam asaan hojaiega or ham 1 class ki madad se bht saare elements ko control kr sakte hn 
+
+Code:
+
+    <p class="first"> This is first paragraph with some content </p>
+    <p class="first"> This is second paragraph with some content </p>
+
+So these are the General Purpose Attributes in HTML
+
+Now we will see the basic structure of an HTML document
+
+What is the basic structure of an html document?
+How to create structure of a website?
+
+
+
+
+
+
+
+
+
+
+HTML page structure:
+
+let's see how an html document will be created using these elemnts and attributes?
+
+ksi bhi individual element se 1 poora webapge nhi banta hai
+us k lye ham alag alag elements ko use kr k 1 poora basic structure banate hn 
+jisko boiler plate code kehte hn, or phir alag alag elements se mil kar 1 webpage banta hai 
+
+First Tag of HTML Document:
+
+we use the first tag in html to create the structure of document is doctype html tag:
+
+syntax:
+
+    <!DOCTYPE html>
+
+by using this tag, we describe the browser that, what is the type of our document?
+we give instructions to our browser that this is an html 5 document
+because there are many type of documents like xml, html and xhtml etc. 
+this means that this is an html document and the version of this document is 5 means "html 5"
+it does not have a closing tag
+this is the first tag of html document
+it is placed at the top of html document at once
+
+2nd Tag:
+
+now the 2nd tag is html tag: 
+
+syntax:
+
+    <!DOCTYPE html>
+    <html></html>
+
+it is the root element of an html document in which our all the contents and elements is placed 
+
+2 Main Tags in HTML Tag:
+
+now there are 2 main tags in the html tag:
+
+head tag
+body tag
+
+Head tag:
+
+syntax:
+
+    <!DOCTYPE html>
+    <html> 
+        <head></head>
+    </html>
+
+jo bhi information display nhi ho rhi hai lekin hamare webapge se related vo daalte hn head tag k ander
+it contains meta data about an html docment
+we give information about the webapge or an html document in head tag
+
+what things will be included in head tag?
+
+title of the webapge 
+some meta tags for Seo 
+link of favicon image, css and javascript files and some other external files 
+
+Title tag:
+
+there is a title tag in the head tag
+title tag defines the title of the webpage
+it is the name of a website/webpage
+we give any name in the title that is related to our webpage
+the title of an html document is displayed at the top of the webpage in the browser's tab 
+
+syntax:
+
+    <!DOCTYPE html>
+    <html> 
+        <head>
+            <title>HTML Tutorial</title>
+        </head>
+    </html>    
+
+Body Tag:
+
+now the last tag of html document is body tag:
+
+syntax:
+
+    <!DOCTYPE html>
+    <html> 
+        <head>
+            <title>HTML Tutorial</title>
+        </head>
+        <body></body>
+    </html>  
+
+this is the most important tag of html document 
+because we write all the things and contents that will be display in our website
+
+is it necessary to learn these things?
+
+no! we can learn these things by just understand these things and practise many times in our computer
+
+Setup Coding Environment:
+
+For coding, we need to things to setup coding environment our computer:
+
+1. install some tools 
+2. create a project folder
+
+1. Install Tools:
+
+we need some tools or software to write code in html, these are:
+
+Text Editor:
+
+we will use text editor in starting (beginner level)
+text editor is used to write some text
+but we do not use word, we use notepad to write html code
+
+Code Editor:
+
+we will use code editor when we learn the basic of html (Basic level)
+there are many code editors to write code but we use vs code for web dev 
+
+Web Browser:
+
+we need a browser to see the output of our code that is already installed on our computer like microsoft edge, chrome, firefox, opera, safari, etc
+but we use google chrome browser
+
+2. Create a Project Folder:
+
+Second thing is to create a project folder on the desired location in our computer where we want to start our coding journey
+
+why we create a project folder?
+
+we need to create a project folder so that we can keep all the files in 1 place so that we can easily manage our files and this is the best practice for coding
+
+How to create an HTML file?
+
+After that open that project folder
+create a notepad file in it
+and enable the file extension option 
+after that change the name of file to "index" and keep the extension ".html" means "index.html"
+
+Beginner Level:     (coding in notepad)
+
+now open index.html file
+write the basic structure of html document in index.html file
+
+Code:
+
+    <!DOCTYPE html>
+    <html> 
+        <head>
+            <title>HTML Tutorial</title>
+        </head>
+        <body></body>
+    </html>  
+
+after that in the body we type h1 tag and give a heading "Hello World" 
+this heading will be displayed in the website
+
+Code:
+
+    <!DOCTYPE html>
+    <html> 
+        <head>
+            <title>HTML Tutorial</title>
+        </head>
+        <body>
+            <h1>Hello World</h1>
+        </body>
+    </html>  
+
+after that save the index.html file
+and check the output of this code 
+
+How to check the output of html file?
+
+double click on the index.html file 
+it will open in the google chrome
+you can see the output 
+
+so this is how we can write code in html and check the output in google chrome
+
+Basic Level:    (coding in vs code)
+
+if we create a professional website using notepad then this process will be very time consuming we will waste our most important time 
+so now we will use vs code to write codes for html or anyother programming language
+
+why we use vs code instead of using notepad?
+
+vs code is a special code editor that is open source and it provides us some features, shortcuts and basic functionalities which helps us to write code faster and easier and ham vs code ko use kr k apna bht saata time bacha sakte hn
+
+Comparision of Code Editor VS Text Editor:
+
+Code Editors gives:
+
+shortcuts
+auto recommendations
+prettier code
+indentation
+beautiful themes
+
+Normal Text Editor gives:
+
+no shortcuts
+no auto recommendations
+ugly code
+no indentation
+no themes
+
+How to open project folder in vs code?
+
+if you don't have cs code first download and install vs code in windows 
+after that go to project folder
+right click on empty space on project folder 
+click "open with code" option
+then your project folder will be open in vs code
+create an index.html file
+
+what is index.html and why we create this file?
+
+when we save our files in server, then jo hamari sab se pehli file hoti hai server m uska name index.html hota hai because jab bhi koi user hamare server ko locate krta hai to jese hi vo web address m hamara url enter krega to sab se pehli file jo open hoti hai vo index.html hoti hai 
+
+afer that create a boiler plate code in this html file
+
+what is Boiler Plate Code?
+
+the basic structure of an html document is called Boiler Plate Code
+
+How to generate boiler plate code?
+
+we don't write boiler plate code itself in vs code
+there are 2 shortcuts to create a boiler plate code in vs code
+
+1st Method:     "!"
+
+we just type Exclamation Mark "!" and press Enter
+then a template of basic structure of an html document will generate automatically, this template is called the Boiler Plate Code
+
+2nd Method:     "html:5"
+
+Type html:5 and press Enter
+then boiler plate code will generate 
+
+this function is not available in notepad, this is why we use a code editor
+
+so how is this possible?
+
+this is possible through Emmet Abbreviation
+
+What is Emmet Abbreviation?
+
+Emmet Abbreviation is a tool or a plug-in that helps us to write code faster and easier 
+you can learn more about Emmet in google
+
+What are Extensions:
+
+we need extensions to add some functionalities, themes, tools or other interesting things in vs code 
+now install some best and helpful extensions from the Extensions Tab
+
+Important Extensions:
+
+live server:    to create a live server and see the output using it 
+prettier:       to add indentation
+
+What is indentation?
+
+indentation means write code in neat & clean and organize manner and maintain a balanced descipline in all our the code or is se hamara code bht hi clear dikhta hai
+
+
+
+
+
+
+
+
+Elements:
+
+There are many elements in html but we learn the most important elements in html
+
+Heading Tag:
+
+if we give any type of heading in html document we use heading tags
+it is a block element 
+
+Syntax:
+
+    <h1></h1>
+
+6 Types of Headings:
+
+there are 6 types of headings in html from h1 tag to h6 tags
+h1 tag is the largest heading, h2 is smaller than h1, h3 is smaller than h2 and so on, and h6 is the smallest heading 
+h1 is the meain heading of any webpage
+h6 is the least important heading
+
+Code:
+
+    <body>
+        <h1>this is h1 heading</h1>
+        <h2>this is h2 heading</h2>
+        <h3>this is h3 heading</h3>
+        <h4>this is h4 heading</h4>
+        <h5>this is h5 heading</h5>
+        <h6>this is h6 heading</h6>
+    </body>
+
+Paragraph Tag:
+
+Paragraph tag defines the normal text in html docment 
+paragraph tag is used to display the normal text in a webpage 
+it is a block element 
+
+Syntax:
+
+    <p></p>
+
+Code:
+
+    <body>
+        <p>this is a normal text in a webapge using paragraph tag</p>
+    </body>
+
+Line Break Tag:
+
+br tag is called line break tag 
+line break tag defines a line break in html document
+it is used to add line breaks in a webpage
+it is a block element 
+
+Syntax:
+
+    <br>
+    
+Code:
+
+    <body>
+        <p>this is a normal text <br> in a webapge using <br> paragraph tag</p>
+    </body>
+
+
+Horizontal Ruler Tag:
+
+hr tag is called horizontal rule/ruler tag
+it defines a thematic change between the sections in html document 
+hr tag is used to add a horizontal line or horizontal rule between the contents in webpage
+it is a block element 
+
+Syntax:
+
+    <hr>
+    
+Code:
+
+    <body>
+        <p>this is a normal text in a webapge using paragraph tag</p>
+        <hr>
+    </body>
+
+What are Whitespaces? 
+
+if we write any normal text in our html document and we add multiple spaces or line breaks between them, then these extra spaces and line breaks will not display in our webapge, because our html document ignores extra spaces and line breaks and these extra spaces or line breaks are called White Spaces in html and our browser does not render whitespaces
+
+How To Display Whitespaces: 
+
+if we need to display whitespaces in the webpage so how can we do this?
+
+we use HTML Entities to display whitespaces in webpage 
+
+What are HTML Entities?
+
+HTML Entities are the codes behind the reserved words & special characters 
+these codes are used to display any reserved words & special characters in a webpage 
+HTML tags are also included in reserved words because it contains "<", ">" and "/" and these are symbols or special characters
+
+to display any reserved words or tags of html in a webapge, we use html entities of that reseved words or characters in html document
+
+What are Reserved Words?
+
+there are some words or characters in html that we can not display them in a webpage by normal written form, to display these characters in webpage we use HTML Entities.
+
+What things are included in reserved words?
+
+    HTML keywords
+    Symbols
+    Special characters
+    Emojis
+    Display Any Tags
+
+Every reserved characters have entity in the form of string, number and hexa decimal, etc.
+it is recommended to use string entity because it is easy 
+
+Syntax:
+
+    &entity_name;          (recommended)
+    &#entity_number;  
+
+How To Display Reserved Words:
+
+if we want to display the <h1></h1> tag or any white space so how can we display them?
+if we write h1 in a normal way like we give heading in html document so our browser understand that this is h1  heading tag in which some text will be written, and h1 is not a simple text, our browser does not display h1 tag in the normal text form, it will display as the h1 heading in a webpage.
+and if we add extra spaces in a normal way then our browser ignore that extra spaces because html ignores whitespaces, so how can we display whitespaces in html? 
+
+we use html entity of whitespace to display extra spaces in a webpage
+
+we can display any reserved characters, special characters, tags, emojis, symbols by using HTML Entities
+
+normally our keyboard do not have all types of keys for all the symbols, emojis, special characters, so we can display them easily by using html entities of that characters.  
+
+Where to find Entities?
+
+You can see or find all the html entities in google 
+
+How To Write Entities Of Any Reserved Words in HTML document?
+
+copy the Entity string or number of any character and paste it in html document to display them in webpage
+
+Example to display Heading Tag <h1></h1> in webpage:
+
+What are the Entities in <h1></h1>?
+
+in the <h1></h1> the reserved characters are:
+
+    less than symbol "<" 
+    h1 is a normal text
+    greater than symbol ">" 
+    forwardslash character "/" 
+
+now find the entity of "<", ">" and "/" in google and paste it in html document
+
+the entity of less than symbol "<" is:       &lt;
+the entity of greater than symbol ">" is:    &gt;
+the entity of forward slash "/" is:          &#47;
+
+Code:
+
+    <body>
+        <p>&lt;h1&gt; &lt;&#47;h1&gt;</p> 
+    </body>
+
+Example to display Whitespaces in webpage:
+
+Code:
+
+    <body>
+        <p>&lt;h1&gt; &lt;&#47;h1&gt;</p>         <!-- display heading tag h1 -->
+        <p>this is &nbsp;&nbsp;some &nbsp;&nbsp;&nbsp;&nbsp;content in webpage</p>    <!-- display whitespace -->
+    </body>
+
+Comments:
+
+this is not our youtube, instagram or facebook Comments
+there are comments in every programming languages, markup languages and stylesheet languages
+
+comments are those lines of code that our browser does not render in the webpage 
+comments do not display in the webpage
+you can see the comments in your browser by view page source option 
+
+Syntax: 
+
+    <!--  -->
+
+Representation:
+
+    <!-- comments content goes here -->
+
+Code: 
+
+    <!-- <p> this is some content in webpage that is commented </p>
+
+Why we write comments in our code?
+
+comments ham apne asaani k lye likhte hn code me taa k ham baad me code ko smajh sake k yahan p kia code likha gya hai or kis lye likha gya hai
+
+you can write comments in your code for your understanding when you read the code you know what is the code you write here and why and what is the section of code
+we can also do comments to our code to save the code but not execute it
+
+3 Types of Comments:
+
+there are 3 types of comments in html:
+
+    Inline comment
+    Single-line comment
+    Multi-line comment
+
+Inline comment:
+
+Comments start from any part of the line
+
+place the cursor in any line from where you want your comments will start, and type 2 forward slashes "//". This is Inline comment
+
+Shortcut of Comments:
+
+press ctrl + /                                   (to comment the whole single line)
+select multiple lines and press ctrl + /         (to comment multiple line at once) 
+
+What is Lorem Epsum?
+
+lorem epsum are the random words or texts that we generate if we needed some random texts or words in our webpage
+
+To display any random words or texts in a webpage we can use "lorem epsum" under paragraph tag
+
+Syntax:
+
+    <p>lorem</p>
+
+How to generate Random Text in webpage?
+
+under the paragraph tag, type lorem and type any number with no space to lorem, then press enter  
+then it will generate random words based on how many numbers you typed 
+
+Representation:
+
+    <p>lorem"n"</p>
+
+where "n" denotes the number, means how many words you want to generate
+
+if you want to generate 50 random words just type lorem50 and press enter, then 50 words will generate
+to generate 300 random words, just type lorem300 and press enter, then 300 words will generate
+
+Code:
+
+    <p>lorem50</p>
+    <p>lorem300</p>
+
+include p tag under body tag for notes 
+
+What happen if we only type lorem and press enter?
+
+if we only type lorem and press enter then bydefault it will generate 30 words 
+
+Code:
+
+    <p>lorem</p>
+
+Some Other Tags:
+
+There are some other formatting tags that we learn below:
+
+Bold Tag:
+
+it defines bold tag 
+it is used to make text Bold
+
+Syntax:
+
+    <b></b>
+
+Code:
+
+    <p>this is <b>some content</b> in my webpage</p>
+
+Strong Tag:
+
+it also defines bold tag with strong importance
+it is used to show anything important in webpage
+
+Difference Between Bold & Strong Tag:
+
+bold and strong tag dekhne m same hi hn but kaam alag alag krte hn
+bold tag sirf text ko bold krta hai without any importance
+strong tag text ko bold krta hai with extra importance
+
+Syntax:
+
+    <strong></strong>
+
+Code:
+
+    <p>this is <strong>some content</strong> in my webpage</p>
+
+Italic Tag:
+
+it defines italic text
+it is used to make text italic
+
+Syntax:
+
+    <i></i>
+
+Code:
+
+    <p>this is <i>some content</i> in my webpage</p>
+
+Emphasized Tag:
+
+it defines Emphasized text
+it is used to make text emphasized
+
+Syntax:
+
+    <em></em>
+
+Code:
+
+    <p>this is <em>some content</em> in my webpage</p>
+
+Difference Between Italic Tag & Emphasized Tag:
+
+
+
+Small Tag:
+
+it defines small text
+font size of small tag will be smaller than normal text
+
+Syntax:
+
+    <small></small>
+
+Code:
+
+    <p>this is <small>some content</small> in my webpage</p>
+
+Big Tag:
+
+it defines big text
+font size of big tag will be larger than normal text
+
+Syntax:
+
+    <big></big>
+
+Code:
+
+    <p>this is <big>some content</big> in my webpage</p>
+
+Superscript Tag:
+
+it defines Superscript text
+it is used to write mathematical formula
+it makes any characters small and upward from the normal text in the same line
+chota kr k oper ki tarf dikhata hai 
+
+Syntax:
+
+    <sup></sup>
+
+Code:
+
+    <p>10<sup>2</sup></p>
+
+Subscript Tag:
+
+it defines Subscript text
+it is used to write chemical formula and logarithms etc
+it makes any characters small and downward from the normal text in the same line
+chota kr k neche ki tarf dikhata hai 
+
+Syntax:
+
+    <sub></sub>
+
+Code:
+
+    <p>10<sub>2</sub></p>
+
+lang attribute:
+
+lang attribute in html tag defines that in which language this html document is written?
+html tag k ander jo bhi cheezen hn unki language define krta hai 
+the value of lang attribute is "en" means the language of our html document is English 
+
+
+
+
+
+
+
+
+
+
+
+
+List:
+
+we use list in our daily life 
+jab bhi ham koi samaan lene jaate hn to 1 list tayar kr k le k jaate hn jis k ander bht saare items hote hn 
+just like same as in HTML, lists are common in the webpage
+we use lists in navigation bar or menu in webpage 
+navigation bar or menu on the webpage are created by using list items in html document
+
+List Item Tag:
+
+There is a list item tag in html when we create any type of list 
+list item tag is present under the different types of list tags 
+we use list item tag to every items of the list  
+Each list item is specified by a list item tag 
+Each list item can contain single item of the list
+means 1 list item tag shows only 1 item of the list 
+
+Syntax:
+
+    <li></li>
+
+Representation:
+
+    <li>list item goes here</li>
+
+Note:   There are many li tags under ol tag 
+
+3 Types of List:
+
+There are 3 types of list in html:
+
+    1. Ordered list
+    2. Unordered list
+    3. Definition list
+
+Ordered List:
+
+ordered list k name se pta chal rha hai k is list k ander koi order hoga jese alphabetical, numerical order etc.
+Ordered list is also called "Numbered List", because bydefault ordered list displays list items in numerical order.
+
+Note:   list item tag <li></li> is present under the ordered list tag 
+
+Syntax:
+
+    <ol>
+        <li></li>
+    </ol>
+
+Representation:
+
+    <ol>
+        <li>list item goes here</li>
+    </ol>
+
+Code:
+
+    <ol>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+    </ol>
+
+When we use Orderd List?
+
+agr hamen list k items ksi bhi order m chahye to ham ordered list ka use kr sakte hn  
+
+5 Types of Ordered List:
+
+There are 5 types of ordered list in html:
+
+    1. Alphabetical order (uppercase "A" & lowercase "a")
+    2. Numerical order ("1")
+    3. Roman order (uppercase "I" & lowercase "i")
+
+How to change the type of ordered list?
+
+we use type attribute to change the type of ordered list
+you can change the order of list items to any order, like below: 
+
+Code:
+
+    <!-- Change the type of ordered list to Capital Alphabetical Order -->
+
+    <ol type="A">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+    </ol>
+
+    <!-- Change the type of ordered list to Small Roman Order -->
+    
+    <ol type="i">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+    </ol>
+
+Unordered List:
+
+Unordered List k name se pta chal rha hai k is list m koi order nhi hoga
+Unordered list is also called "Bulleted List", because bydefault unordered list displays list items in bullet order.
+
+Note:   list item tag <li></li> is present under the ordered list tag 
+
+Syntax:
+
+    <ul>
+        <li></li>
+    </ul>
+
+Representation:
+
+    <ul>
+        <li>list item goes here</li>
+    </ul>
+
+Code:
+
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+    </ul>
+
+When we use Unordered List?
+
+agr hamen list k items without any order chahye to ham unordered list ka use kr sakte hn  
+
+3 Types of Unordered List:
+
+There are 3 types of unordered list in html:
+
+    1. Circle
+    2. Square
+    3. Disc
+
+How to change the type of unordered list?
+
+we use type attribute to change the type of unordered list
+you can change the order of list items to any order, like below: 
+
+Code:
+
+    <!-- Change the type of unordered list to Circle Order -->
+
+    <ol type="circle">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+    </ol>
+
+    <!-- Change the type of unordered list to Square Order -->
+
+    <ol type="square">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+    </ol>
+
+    <!-- Change the type of unordered list to Disc Order -->
+    
+    <ol type="disc">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+    </ol>
+
+When we use Ordered list & Unordered list:
+
+jab bhi hamen list k ander koi bhi steps ko order m dikhana ho to ham ordered list use sakte hn
+jab bhi hamen list k ander koi bhi steps ko bina order m dikhana ho to ham unordered list use sakte hn 
+
+Nesting of Lists:
+
+lists inside lists are called Nesting of list
+if you want list inside list you can use nesting of lists
+nesting of list is added in the list item <li></li> tag
+because the second list is the item of first list
+or the sub-list will be the item of parent list
+it is present in any type of the list 
+
+Syntax:
+
+    <ol>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li>
+            <ul></ul>
+            <ul></ul>
+            <ul></ul>
+        </li>
+    </ol>
+
+Code:
+
+    <ol>
+        <li>Web development</li>
+        <li>
+            <ol>Frontend</ol>
+            <ol>Backend</ol>
+            <ol>Full-Stack</ol>
+        </li>
+    </ol>
+
+Topics:
+
+Define html
+What is markup language?
+What does html consists into?
+Overview of tags, elements and attributes
+2 Types of Tags in HTML (opening and closing tag)
+Empty Tag
+Elements
+Nesting of Elements
+What are Attributes?
+3 Types of Attributes (Required, Boolean, General Purpose)
+
+HTML page structure
+First Tag of HTML Document (doctype html)
+2nd Tag (html)
+2 Main Tags in HTML Tag (head and body)
+what things will be included in head tag?
+Title Tag
+Body Tag 
+Setup Coding Environment
+1. Install Tools
+2. Create a Project Folder
+why we create a project folder?
+How to create an HTML file?
+Beginner Level (coding in notepad)
+How to check the output of html file?
+Basic Level (coding in vs code)
+why we use vs code instead of using notepad?
+Comparision of Code Editor VS Text Editor
+How to open project folder in vs code?
+what is index.html and why we create this file?
+what is Boiler Plate Code?
+What is Emmet Abbreviation?
+What are Extensions
+Important Extensions
+What is indentation?
+
+Elements
+Heading Tag 
+6 Types of Headings
+Paragraph Tag
+Line break Tag 
+Horizontal Ruler Tag 
+What are Whitespaces? 
+How To Display Whitespaces 
+What are HTML Entities?
+What are Reserved Words?
+What things are included in reserved words?
+How To Display Reserved Words
+Where to find Entities?
+How to write Entities of any reserved words in HTML document?
+Example to display Heading Tag <h1></h1> in webpage 
+Example to display Whitespaces in webpage
+Comments
+Why we write comments in our code?
+3 Types of Comments
+Shortcut of comments
+What is Lorem Epsum?
+How to generate Random Text in webpage?
+What happen if we only type lorem and press enter?
+Some Other Tags 
+Bold Tag & Strong Tag
+Difference Between Bold & Strong Tag
+Italic & Emphasized Tag
+Difference Between Italic Tag & Emphasized Tag
+Small Tag & Big Tag
+Superscript & Subscript Tag
+lang attribute
+
+List
+List Item Tag
+3 Types of List
+When we use Ordered List?
+5 Types of Ordered List
+How to change the type of ordered list?
+When we use Unordered List?
+3 Types of Unordered List
+How to change the type of unordered list?
+When we use Ordered list & Unordered list
+Nesting of Lists
+
+
+
+
+
+

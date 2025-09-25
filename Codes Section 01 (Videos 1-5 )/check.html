@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+
+    <!-- HTML Entity -->
+    
+    <!-- Entity to display h1 tag -->
+
+    &lt;h1&gt; &lt;&#47;h1&gt;            
+
+    <!-- Entity to display h1 tag -->
+
+    <p>this is &nbsp;&nbsp;some &nbsp;&nbsp;&nbsp;&nbsp;content in webpage</p>
+
+    <br>
+    <hr>
+
+    <!-- Table contains 3 columns & 3 rows: -->
+
+    <table border="1">
+        <tr>
+            <th>No</th>
+            <th>Name</th>
+            <th>Skills</th>
+        </tr>
+        <tr>
+            <td>01</td>
+            <td>Ahmad</td>
+            <td rowspan="2">Web Developer</td>
+        </tr>
+        <tr>
+            <td>02</td>
+            <td>Kamran</td>
+        </tr>
+    </table>
+
+    <br>
+    <hr>
+
+        <table border="1">
+        <tr>
+            <th>Month</th>
+            <th>Saving</th>>
+        </tr>
+        <tr>
+            <td>January</td>
+            <td>$100</td>
+        </tr>
+        <tr>
+            <td>February</td>
+            <td>$50</td>
+        </tr>
+        <tr>
+            <td colspan="2"> Sum: $50</td>
+        </tr>
+    </table>
+
+    <br>
+    <hr>
+
+    <!-- Creates A Marksheet Of A Student -->
+
+    <table>
+        <thead>
+            <tr>
+                <th>Subject</th>
+                <th>Theory</th>
+                <th>Practical</th>
+                <th>Total Marks</th>
+                <th>Grades</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>English</td>
+                <td>65</td>
+                <td>-</td>
+                <td>65</td>
+                <td>A</td>
+            </tr>
+            <tr>
+                <td>Computer</td>
+                <td>75</td>
+                <td>-</td>
+                <td>75</td>
+                <td>A+</td>
+            </tr>
+            <tr>
+                <td>Math</td>
+                <td>70</td>
+                <td>-</td>
+                <td>70</td>
+                <td>A+</td>
+            </tr>
+            <tr>
+                <td>Physics</td>
+                <td>68</td>
+                <td>20</td>
+                <td>88</td>
+                <td>A</td>
+            </tr>
+            <tr>
+                <td>Chemistry</td>
+                <td>73</td>
+                <td>22</td>
+                <td>95</td>
+                <td>A+</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <th colspan="5">Result: Pass</th>
+        </tfoot>
+    </table>
+
+    <br>
+    <hr>
+
+    
+    <form action="action.php">
+        
+        <h1>Payment Form</h1>
+        <h2>Contact Information</h2>
+        
+        <p>Required Fields are followed by *</p>
+        <p>Name: <input type="text" name="userName" id="name" required></p>
+        <p>Email: * <input type="email" name="userEmail" id="email"></p>
+        <p>Pin Code: <input type="number" name="pinCode" id="pincode"></p>
+
+        <p>Gender: * <br>
+            <input type="radio" name="gender" id="male" required>Male        <!-- if we change the value of name attribute then our radio does not work and browser does not understand and we are able to select both genders so it is necessary to keep the same name only for radio type otherwise radio button will not work but id always unique in any case -->  
+
+            <input type="radio" name="gender" id="female" required>Female
+            <input type="radio" name="gender" id="other" required>Other
+        </p>
+
+         <!-- use "fieldset" to keep all genders in the same group -->
+
+         <fieldset>
+            <legend>Gender:</legend>
+            <p>this is radio buttons of gender</p>
+         </fieldset>
+
+         <p>Address: <br>
+            <textarea name="address" id="address" ></textarea>
+         </p>
+
+         <!-- chorai is column, lambai is row in the textarea -->
+
+         <h2>Payment Info</h2>
+         <p>Card Type: 
+            <select name="userCardTypes" id="card type">
+                <option value="">-- Select Card Type --</option>
+                <option value="Visa">Visa</option>
+                <option value="MasterCard">MasterCard</option>
+                <option value="Rupay">Rupay</option>
+            </select>     <!-- jab bhi ham multiple cheezon me se koi 1 cheez select krvana chahte hn list ki form m to ham select tag ka use krte hn, same as radio but thora different, in the select tag we define values using option tag, first option value will be empty -->
+         </p>
+         <p>Card Number: 
+            <input type="number" name="cardNumber" id="cardNumber">
+         </p>
+         <p>Card Expiration Date:
+            <input type="date" name="cardExpirationDate" id="cardExpirationDate">
+         </p>
+         <p>CVV:
+            <input type="password" name="cvv" id="cvv">
+         </p>
+         <p>
+            <input type="submit" value="Pay Now">
+            <input type="reset" value="Reset Now">
+         </p>
+    </form>
+  </body>
+</html>
+
+<!--
+
+we give the location (URL) of the server in "action" attribute of "form" tag
+
+jab bhi ham "form" tag m "input" tag use krte hn to us k ander "name" attribute use krna bht zrori hota hai because jo bhi ham input element use kr rhe hn vo jab bhi browser se server k ander jaiega to agr input element k ander "name" attribute hoga to hi jaiega, 
+
+name always be unique 
+value of name attribute will always be "unique"
+we do not use same value of name attribute in other value of name attribute in input element
+
+"name" attribute k ander ham vo value likhenge jo ham user se input le rhe hn or input se related hona chahye jese ham user ka name input le rhe hn to "value" me "userName" likhenge
+
+isi trah server k ander agr hamen user ka name findout krna hoto ham input section k ander "userName" ko findout krnge is se hamen user ka input diya huwa name mil jaiega
+
+use "required" attribute in user name option 
+
+get method use to store normal data in server 
+because it does not secure
+get method data will be show in the URL when we click on a submit button to submit form 
+
+to store data in secure form use post method in form
+  
+-->

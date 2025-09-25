@@ -1,0 +1,121 @@
+VIDEO NO 01:
+
+Videos 1 - 5 consists into only HTML 
+
+Types of websites:
+
+there are 2 types of websites:
+
+static website 
+dynamic website 
+
+Static Website:
+
+jis website ka data user k control m nhi hota hai, vo static website hai
+jisme new webpage add krne k lye hamen code krna parta hai
+or ye sirf visiting card ki trah hoti hai, jo k sirf kuch content display kr rhi hoti hai
+
+Examples: landing pages of any company, resume of any people, any constant website 
+
+which technologies used in static website?
+
+
+
+Dynamic Website:
+
+jis website ka data user or client k control m hota hai, vo dynamic website hai.
+most websites jo ham serve krte hn vo saari dynamic website hoti hn
+
+Example: youtube is also a dynamic website
+
+which technologies used in dynamic website?
+
+
+
+
+Google Summer of Code:
+
+it is the large open source program that Google organizes
+
+what is html, css and javascript?
+
+html is the structure and layout of a website
+we can define the contents of a website using tags in html
+
+css is the look, style and design of a website
+
+javascript is the brain and engine of a website that adds logic, functionality and interactivity in a website 
+
+What is Frontend?
+
+the website that is made up of html, css and javascript is called frontend
+there is no database in frontend (html, css and js) to store data because html, css and js is installed in your web browser
+
+Why we use database?
+
+for memory or storage we use database or server
+database is used to store data in a very efficient structure
+whenever if we register in any website, then our data will be store in the database of that website
+after that, we can login on that website, by using the data that is stored already in the website's database when we register
+database is present inside the server
+
+what is server?
+
+server is a powerful computer that is present in any data center and you can rent it
+frontend is available in browser, and we can use browser in any device, pc, mobile or laptop but speed of these devices may be slow, so that's why, to process data we use server for database
+
+To use server we use server side language like java, php, python, node js, etc and almost all the language that is run on your computer. 
+we can also use these languages to interaction with database.
+
+now this is the way, we can create websites
+
+what is domain name?
+
+but there is 1 more thing to recognize this website, we can give any name to this website, for this, we give a unique name to every website, this is also called Domain name by which ksi bhi website ki 1 pehchaan hoti hai, or isi ko use kr k ham website ko server se call krte hn ya maangte hn, then all the contents will display in our browser.
+
+How does a website work?
+
+when we search or call any website in search engine, url or web address, to vo domain name apne server ko locate krega, phir hamari request server p jaiegi or server kuch database queries krega or phir hamara content responce me web browser tak bhej dia jaiega, or vo content bana hoga html css or js se, or ab browser k pas vo files aagay hn or ab browser us content ko parhega or understand krega jisme html css or js hai, 
+then hamara browser html ko use kr k us website ka structure or layout bana dega, css ko use kr k designs add krdega, or javascript ko use kr k functionality add krdega or ye saari cheezen hamari browser p display ho rhi hongi 1 webapge ki form m, jise ham website kehte hn.
+
+What is parscing?
+
+when we search any website from any browser, then server sends html, css and js files to the browser then our browser read these files and understand how to display the content, after that it displays a beautiful website to us on the screen.
+This is called Parscing.
+
+this is the journey of website when we search any website in our browser.
+
+what is website builders?
+website builders are the softwares that provides some tools by which we can build any website without coding.
+
+why we use website builders?
+we can use website builders to build any website without coding, by using some tools, that website builders provides. 
+
+is it better to build any website using coding or any website builder?
+
+Coding:                                 Using Website Builders
+
+control all customizations              not control all customizations
+uniqueness                              no uniqueness
+faster performance                      slower performance
+less code                               extra or large codes 
+high ranking in SEO                     low ranking in SEO
+
+we should always create a website by coding not using website builders
+
+Topics:
+
+2 Types of website: static and dynamic website
+which technologies used in static website?
+which technologies used in dynamic website?
+Google summer of code
+what is html, css and javascript?
+what is frontend?
+why we use database?
+what is server?
+what is domain name?
+How does a website work?
+what is parscing?
+what is website builders?
+why we use website builders?
+is it better to build any website using any website builder?
