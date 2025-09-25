@@ -1,3 +1,5 @@
+Shortcuts of VS Code:
+
 to format document using prettier:
     shift + alt + F
 
@@ -26,6 +28,50 @@ to zoom in or out in vs code:
 to delete any word:
     ctrl + backspace
 
+
+
+Features:
+
+Enable Mini Map
+
+Settings:
+
+Settings - blink - expand           cursor appearance
+Settings - cursor smooth - on       smooth to write 
+Settings - word wrap - on           vs code becomes responsive in ratio & size
+Settings - bracket pair - on        on bydefault 
+
+
+Extensions:
+
+live server:      creates a live server 
+
+prettier:        formats the code 
+    settings  -  format on save - on      when we save our code prettier formats the code  
+
+code runner:     displays a button to run the code
+
+material icon theme:    changes the file icons 
+
+Not Installed:
+
+peacock:         changes the color of your vs code    
+import cost:     displays size of the imported package
+Docker:          used for programming 
+GitLens:         used for git
+remote ssh:      connects vs code to server 
+
+quokka.js:       for javascript      best
+
+live share:      share the code
+
+pola code:       may be takes the snapshot of code and save it in pc 
+
+javascript ES6 code snippets:   for javascript
+
+vs code pdf:     opens pdf in vs code
+
+rainbow csv:     used for csv 
 
 
 
