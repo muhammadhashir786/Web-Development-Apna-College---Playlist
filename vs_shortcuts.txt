@@ -1,0 +1,143 @@
+1. SHORTCUTS:
+
+to format document using prettier:
+    shift + alt + F
+
+to toggle word wrap or to remove the horizontal bar from the screen width:
+    press alt + z 
+
+to toggle/untoggle the sidebar: 
+    ctrl + b
+    
+to open command palette:
+    ctrl + shift + p
+
+to move the whole line up or down:
+    alt + up/down arrow key
+
+to jump into new line:
+    ctrl + Enter
+
+to create multiple cursors:
+    alt + click anywhere
+
+to duplicate a whole line:
+    ctrl + d
+    alt + shift + down/up arrow key    (set bydefault)
+
+to zoom in or out in vs code:
+    ctrl + mouse scroll up/down 
+
+to delete any word:
+    ctrl + backspace
+
+to close all the files at once:
+    ctrl + k + w 
+
+to close files 1 by 1:
+    ctrl + w 
+
+to re-open files that we closed:
+    ctrl + shift + t
+
+to open/close terminal:
+    ctrl + ~/j 
+
+to search the files in workplace: 
+    search bar
+
+
+
+
+
+
+
+
+
+
+2. SETTINGS:
+
+Enable Minimap
+
+go to file - click auto-save        to autosave the file  
+Settings - blink - expand           cursor appearance
+Settings - cursor smooth - on       smooth to write 
+Settings - word wrap - on           vs code becomes responsive in ratio & size
+Settings - bracket pair - on        on bydefault 
+settings - compact folders - on 
+embed google fonts on vs code:      go to fonts.google.com - search jetbrains mono - click font - get font - download all/embed - go to settings on vs code - search font family - type "jetbrains mono" with other fonts 
+Settings - format on save - on  (my setting is off)
+
+
+
+
+
+
+
+
+
+
+3. EXTENSIONS:
+
+1. live server:      creates a live server 
+
+2. prettier:        formats the code 
+    settings  -  format on save - on      when we save our code prettier formats the code  
+
+3. code runner:     displays a button to run the code
+
+4. material icon theme:    changes the file icons 
+
+Not Installed:
+
+5. Material Theme:     change the themes 
+6. indent rainbow:     for spaces indentations 
+7. visual assist:      used in Visual Studio IDE 
+8. Auto Close Tag:     used for html 
+9. Rest Client:        to test the request in vs code (get/post request)
+peacock:         changes the color of your vs code    
+import cost:     displays size of the imported package
+Docker:          used for programming 
+GitLens:         used for git
+remote ssh:      connects vs code to server 
+quokka.js:       for javascript      best
+live share:      share the code
+pola code:       may be takes the snapshot of code and save it in pc 
+javascript ES6 code snippets:   for javascript
+rainbow csv:     used for csv
+
+nextjs ts snippets
+react code snippets
+typescript react code snippet
+ES7+ react/redux/react native
+ES7 react/redux/graphQL 
+Tailwind CSS IntelliSense
+Headwind - then sort your Tailwind css classes with headwind
+
+GitHub Copilot - may be gives suggestions - press tab to autocomplete
+
+Prisma:             
+Thunder Client:     test your APIs using thunder client
+Error Lens:         know your errors within code environment
+
+vs code pdf:     opens pdf in vs code
+SVG-Viewer:         get the preview of svg codes 
+readme-preview:     view your output of readme without leaving your editor
+Excel Viewer:       to view excel files 
+
+CodeTour:           do some discussions in it 
+TODO Hightlight:    type todo/fixme Hightlight - open command palette - type todo highlight toggle - 
+Draw.io integration:    draw any things            
+Code Spell Checker:     quick fix your wrong spellings       
+Vibrancy Continued:     type reload Vibrancy on settings/command palette - restart vs code 
+
+Better Comments:    write your comments in better way - open the user settings JSON and copy the in description below - sometimes you have reload the window to see the effects
+
+Tabnine AI autocomplete:    used for java - it is like a chatbot - for this sign in the Tabnine account first - copy the token - open command palette - type Tabnine sign in - press enter - paste the token - then verify your email - 
+
+
+
+
+
+
+
