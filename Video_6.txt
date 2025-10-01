@@ -4,3 +4,67 @@ CSS:
 
 CSS stands for Cascading style sheet
 is se ham ksi bhi webpage ko acha sa design or animation de sakte hn 
+
+Syntax of CSS:
+
+property: value
+
+values are pre-defined and user-defined
+
+examples of property:
+
+color
+font-family
+border
+text-align
+
+examples of value of property:
+
+color: green
+font-family: "Times New Roman", serif
+border: 2px
+text-align: center
+
+Types of CSS:
+
+there ar e3 types of css:
+
+inline css
+internal css
+external css
+
+Inline CSS:
+
+we use style attributes in html elements, this is called inline css
+
+syntax:     <tagName style="property:value,">
+
+code:   
+
+    <h1 style="color: blueviolet;">Welcome To My Website</h1>
+
+Internal CSS:
+
+we use an style tag with selectors in the head secion of html document
+we use selectors in the style tag to select html elements
+
+code:
+
+    <style>
+        h2{
+            color: red;
+        }
+    </style>
+
+External CSS:
+
+we create a ".css" file in which we write css code in it and then we link that css file with html document using link tag in the head section 
+
+syntax:     <link rel="styleseet" href="filename">
+code:       <link rel="styleseet" href="style.css">
+
+shortcut to generate link tag for css:    link:css
+
+Selectors In CSS:
+
+
